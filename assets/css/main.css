@@ -1740,6 +1740,7 @@ ol {
 ========================================*/
 /*===== NAVBAR =====*/
 .navbar-area {
+  
   width: 100%;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1749,7 +1750,7 @@ ol {
 }
 
 .sticky {
-  position: fixed;
+  position:fixed;
   z-index: 99;
   background-color: #fff;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -1817,7 +1818,7 @@ ol {
   width: 150px;
   position: absolute;
   left: 0;
-  top: 0;
+  top: -30px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -1839,6 +1840,7 @@ ol {
 }
 
 .header .navbar-area.sticky .logo .alt-logo {
+  
   z-index: 2;
   opacity: 1;
   visibility: visible;
@@ -3176,7 +3178,7 @@ ol {
 .footer {
   z-index: 2;
   position: relative;
-  background: linear-gradient(45deg, #6831e3, #f528cb);
+  background: linear-gradient(45deg,var(--primario),var(--secundario));
 }
 
 .footer.style2 {
@@ -3298,8 +3300,8 @@ ol {
 }
 
 .footer .footer-middle {
-  padding-bottom: 120px;
-  padding-top: 90px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .footer .single-footer {
